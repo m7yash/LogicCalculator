@@ -46,3 +46,4 @@ Program that computes propositions and generates truth tables! Developed by Yash
 ## Plans for the future:
 - Use Regular Expressions for input validation
 - Add an option to allow for direct computations
+- Further improve code quality
