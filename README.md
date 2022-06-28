@@ -1,6 +1,6 @@
 # TruthTableGenerator
 
-Simple, text-based client that computes propositions and generates truth tables! Developed by Yash Mishra.
+Simple program that computes propositions and generates truth tables! Developed by Yash Mishra.
 
 <img width="1324" alt="image" src="https://user-images.githubusercontent.com/61370209/176289701-23bfbd85-d42a-4a80-98b8-d84ea2ddbf19.png">
 
