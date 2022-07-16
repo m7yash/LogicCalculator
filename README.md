@@ -16,7 +16,7 @@ Program that computes propositions and generates truth tables! Developed by Yash
   - If you discover a bug, let me know! Email me at m7yash@cs.washington.edu
 - If you request a complex computation, the printing in the terminal may be unreliable, so see ```output.txt``` instead (and adjust the window size so that the lines are not pushed together)
 - To compute something such as ```(p&q)->r```, you have to first compute ```p&q```. If that is saved in column 4 of the table (the first three columns would be taken by ```p```, ```q```, and ```r``` respectively), then you have to do then ```4->r``` to get ```(p&q)->r``` in column 5 of the table.
-  - I coded it this way because it basically forces "showing work" in between steps. It will also be easier to understand how the final result was computed. This tool is likely to be used for learning and/orchecking work, and when we do these computations by hand, we generally write out columns for intermediate steps. So, this will make it easier to catch mistakes in hand-written truth tables.
+  - I coded it this way because it basically forces "showing work" in between steps. It will also be easier to understand how the final result was computed. This tool is likely to be used for learning and/or checking work, and when we do these computations by hand, we generally write out columns for intermediate steps. So, this will make it easier to catch mistakes in hand-written truth tables.
   - In the future, I will add an option to do computations directly.
 
 ## Background:
