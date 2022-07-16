@@ -24,7 +24,7 @@ Program that computes propositions and generates truth tables! Developed by Yash
 - The original program was in Java, and it was written poorly from a coding standpoint because I had finished all of it in two days. The code is in ```OldVersion.java``` and is located in the ```old``` folder.
 - I am always looking to improve as a programmer, so I decided to completely redo the program at the start of the summer (and switch to Python). I made many new changes:
   - Program-related
-    - No limit of 10 computations! User can now compute as many propositions as they would like thanks to improved internal input handling!
+    - No limit of 10 computations! User can now compute as many propositions as they would like thanks to improved input handling!
     - More efficient storage of T/F values since the table is made of ```bool```s instead of strings
     - The algorithm to generate all T/F value combinations in a particular pattern is now more understandable and concise
     - Inputting propositions and calculated propositions is significantly easier
