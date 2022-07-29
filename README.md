@@ -5,7 +5,6 @@ Program that computes propositions and generates truth tables! Developed by Yash
 <img width="1324" alt="image" src="https://user-images.githubusercontent.com/61370209/176289701-23bfbd85-d42a-4a80-98b8-d84ea2ddbf19.png">
 
 ## How to Use:
-- Download Python from https://www.python.org/downloads/
 - Download ```Main.py``` and open its enclosing folder in a terminal in full-screen
 - Run ```python3 Main.py```
   - Your program result will be printed to the terminal screen and also to ```output.txt```
