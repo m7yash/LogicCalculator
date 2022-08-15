@@ -6,7 +6,7 @@ Program that computes propositions and generates truth tables! Developed by Yash
 
 ## How to Use:
 - On this repository's main page, click 'Code' and then click 'Download ZIP'
-- Run ```python3 Main.py``` in the downloaded folder
+- Use command line to run ```python3 Main.py``` in the downloaded folder
   - Your program result will be printed to the terminal screen and also to ```output.txt```
   - Change the window size of ```output.txt``` if lines are pushed together
 
