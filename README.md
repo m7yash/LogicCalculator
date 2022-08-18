@@ -19,7 +19,7 @@ Program that computes propositions and generates truth tables! Developed by Yash
   - In the future, I will add an option to do computations directly.
 
 ## Background:
-- I originally created this program during CSE 311 (Foundations of Computing I) when we learned propositional logic. I found it tiring to draw out long truth tables so I wanted to have my computer do it for me! I shared it with some classmates as well and we were able to use it to get a better understanding of propositional logic.
+- I originally created this program for fun while taking CSE 311 (Foundations of Computing I) when we learned propositional logic. I found it tiring to draw out long truth tables so I wanted to have my computer do it for me! I shared it with some classmates as well and we were able to use it to get a better understanding of propositional logic.
 - The original program was in Java, and it was written poorly from a coding standpoint because I had finished all of it in two days. The code is in ```OldVersion.java``` and is located in the ```old``` folder.
 - I am always looking to improve as a programmer, so I decided to completely redo the program at the start of the summer (and switch to Python). I made many new changes:
   - Program-related
