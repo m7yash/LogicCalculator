@@ -35,7 +35,7 @@ def generate_truth_table():
     elapsed_time = end - start
     elapsed_time_in_ms = elapsed_time * 1000
 
-    print(colored(f"Truth Table Generation and Requested Computations successfully "
+    print("\n" + colored(f"Truth Table Generation and Requested Computations successfully "
                   f"completed in {elapsed_time_in_ms} milliseconds.", "blue"))
 
     number_format_requested = print_format_is_numbers()  # true if user wants 1/0 format, false for T/F format
@@ -88,9 +88,10 @@ def get_calculated_props(props, current_column, operators):
 
     valid_symbols = props + [str((i + 1)) for i in range(len(props))]  # column numbers start at 1
 
+    print(colored("Valid Operators to use in your expressions:", "light_red"), colored(operators, "light_red"), "\n")
+
     while True:
         print(colored("Valid Symbols to use in your expression: ", "yellow"), colored(valid_symbols, "yellow"))
-        print(colored("Valid Operators to use in your expression: ", "yellow"), colored(operators, "yellow"))
         input_is_valid = True
         left_term = ""
         right_term = ""
@@ -98,7 +99,7 @@ def get_calculated_props(props, current_column, operators):
         calculated_prop_input = input(f"Calculated Proposition {current_column - len(props)} (Table Column "
                                       f"{current_column}): ").lower()
 
-        if len(calculated_prop_input) < 1:
+        if len(calculated_prop_input) == 0:
             return calculated_props
 
         if calculated_prop_input in calculated_props:
@@ -175,7 +176,7 @@ def get_calculated_props(props, current_column, operators):
             input_is_valid = False
 
         if input_is_valid:
-            print(colored(f"\tTable Column {current_column} set to {calculated_prop_input}", "green"))
+            print(colored(f"\tTable Column {current_column} set to {calculated_prop_input}", "green"), "\n")
             valid_symbols.append(str(current_column))
             calculated_props.append(calculated_prop_input)
             i += 1
@@ -334,9 +335,9 @@ def print_table(table, formatted_combination, num_rows, num_cols,
                 if number_format_requested:
                     f.write(str(int(table[i][j])) + spacing[1::])
                     if table[i][j]:
-                        print(colored(int(table[i][j]), "green"), end=spacing[1::])  # print 1 in green
+                        print(colored(str(int(table[i][j])), "green"), end=spacing[1::])  # print 1 in green
                     else:
-                        print(colored(int(table[i][j]), "red"), end=spacing[1::])  # print 0 in red
+                        print(colored(str(int(table[i][j])), "red"), end=spacing[1::])  # print 0 in red
                 else:
                     f.write(str(table[i][j])[0] + spacing[1::])
                     if table[i][j]:
