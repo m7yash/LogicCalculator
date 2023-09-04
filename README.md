@@ -1,4 +1,4 @@
-# LogicCalculator
+# Logic Calculator
 
 Program that computes propositions and generates truth tables! Developed by Yash Mishra.
 
